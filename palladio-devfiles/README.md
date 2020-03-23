@@ -22,7 +22,7 @@ Read [this document](https://www.eclipse.org/che/docs/che-7/using-a-visual-studi
 
 ## devfile
 
-> A devfile defines the configuration of the workspace, which is the developer’s environment. This definition is portable - we can create any number of identical workspaces from the same devfile. Anyone can share a devfile and everyone using this devfile will get the same workspace including projects, tooling, commands, etc…[^footnote_devfile]
+> A devfile defines the configuration of the workspace, which is the developer’s environment. This definition is portable - we can create any number of identical workspaces from the same devfile. Anyone can share a devfile and everyone using this devfile will get the same workspace including projects, tooling, commands, etc… (source: [Discover Eclipse Che 7 : devfile](https://che.eclipse.org/discover-che-7-devfile-85a8cc83d860))
 
 devfile in this project only contains the palladio language support plug-in and a palladio sample project.
 
@@ -42,6 +42,3 @@ components:
 ```
 
 For more information, read [this document](https://www.eclipse.org/che/docs/che-7/making-a-workspace-portable-using-a-devfile/).
-
-
-[^footnote_devfile]: [Discover Eclipse Che 7 : devfile](https://che.eclipse.org/discover-che-7-devfile-85a8cc83d860)
