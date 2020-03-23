@@ -97,7 +97,7 @@ Component MyConsumer
 
 ```
 
-## Development & To Continue
+## Development & Continue
 
 To automate the build process, this project use [Gradle](https://gradle.org/)as build tool initially. But to keep consistent with the [Palladio Language Server](https://github.com/PalladioSimulator/Palladio-Addons-TextBasedModelGenerator) project, which was built with [Maven](https://maven.apache.org/), I need to run Gradle inside Maven.
 With reference to [this article](http://andresalmiray.com/running-gradle-inside-maven/), I was finally able to invoke Gradle using Maven.

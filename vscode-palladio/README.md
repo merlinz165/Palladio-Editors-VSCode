@@ -64,26 +64,26 @@ All tasks are defined in `build.gradle`
 Maven invoke Gradle using `exec-maven-plugin`
 
 ```xml
-		<plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.6.0</version>
-                <executions>
-                    <execution>
-                        <id>gradle-package</id>
-                        <phase>package</phase>
-                        <configuration>
-                            <executable>${gradle.executable}</executable>
-                            <arguments>
-                                <argument>copyVSExtensionToTarget</argument>
-                            </arguments>
-                        </configuration>
-                        <goals>
-                            <goal>exec</goal>
-                        </goals>
-                    </execution>
-                </executions>
-		</plugin>
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>exec-maven-plugin</artifactId>
+    <version>1.6.0</version>
+    <executions>
+        <execution>
+            <id>gradle-package</id>
+            <phase>package</phase>
+            <configuration>
+                <executable>${gradle.executable}</executable>
+                <arguments>
+                    <argument>copyVSExtensionToTarget</argument>
+                </arguments>
+            </configuration>
+            <goals>
+                <goal>exec</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
 ```
 
 ## Further Work
