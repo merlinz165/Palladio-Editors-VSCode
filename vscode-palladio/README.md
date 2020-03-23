@@ -1,10 +1,14 @@
 # Palladio Language Server VS Code extension
 
 ## VS Code extension development
+
 VS Code is the Client side of Language Server Protocol. 
+
 Basically, there are two ways to use a language server: an external server or an embedded one with the extension. In this project, the language server is embedded within the extension.
+
 ![hello](https://raw.githubusercontent.com/merlinz165/Palladio-Editors-VSCode-Assets/master/images/Xtext-LSP-Diagram2.png)
-In this case, the lifecycles of the extension and the server are the same and we don't need to care about the server separately.[^footnote_embed]
+
+In this case, the lifecycles of the extension and the server are the same and we don't need to care about the server separately. (reference: [INTEGRATING XTEXT LANGUAGE SERVER SUPPORT IN VISUAL STUDIO CODE](https://blogs.itemis.com/en/integrating-xtext-language-support-in-visual-studio-code))
 
 This project was created using the scaffolding tool [YEOMAN](https://yeoman.io/) and [VS Code Extension Generator](https://www.npmjs.com/package/generator-code).
 
@@ -79,7 +83,12 @@ Maven invoke Gradle using `exec-maven-plugin`
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+		</plugin>
 ```
 
-[^footnote_embed]: [INTEGRATING XTEXT LANGUAGE SERVER SUPPORT IN VISUAL STUDIO CODE](https://blogs.itemis.com/en/integrating-xtext-language-support-in-visual-studio-code)
+## Further Work
+
+- make it nice
+	- Syntax highlighting ([TextMate grammar](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide#textmate-grammars))
+
+- Connect with Palladio Simulation or other Palladio components	
