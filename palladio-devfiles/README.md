@@ -1,12 +1,12 @@
 # Eclipse Che devfile generator
 
-This subproject will update the informaation in `plugins/palladio-lsp.yaml` and `devfile.yaml` during the build process.
+This subproject will update the information in `plugins/palladio-lsp.yaml` and `devfile.yaml` during the build process.
 
 ## plug-in meta.yaml
 
 `plugins/palladio-lsp.yaml` is the meta.yaml of the Che plug-in. It specifies the vscode extension URL and container where the extension runs in. It also contains some basic information.
 
-Palladio Language Server requires Java runtime environment, so we specify a java11 container for it.
+Palladio Language Server requires a Java runtime environment, so we specify a java11 container for it.
 
 ```Yaml
 spec:
