@@ -19,7 +19,6 @@ This project was created using the scaffolding tool [YEOMAN](https://yeoman.io/)
 	`vscode-languageclient`: npm module to talk to a VSCode language server from a VSCode extension.
 	
 	```ts
-		// LSP client & server Options
 	    // The Server is a locally installed in ../build/palladio-ls/
 	    let executable = os.platform() === 'win32' ? 'palladio-ls.bat' : 'palladio-ls';
 	    let serverLauncher = context.asAbsolutePath(path.join(
