@@ -2,7 +2,7 @@
 
 This repository aims to automatically generate an Eclipse Che workspace template supporting Palladio domain-specific language(DSL).
 
-It consists of a [Palladio DSL support extension for VS Code](./vscode-palladio) and the corresponding [Eclipse devfile generator](./palladio-devfiles).
+It consists of a [Palladio DSL support extension for VS Code](./vscode-palladio) and the corresponding [Eclipse Che devfile generator](./palladio-devfiles).
 
 This project is based on the [Palladio Language Server](https://github.com/PalladioSimulator/Palladio-Addons-TextBasedModelGenerator).
 
@@ -52,7 +52,7 @@ Where:
     - `<DEVFILE_URL>` is the URL where you put your devfile.
 
 3. Press **Enter** and wait for the workspace to initialize.
-A workspace is created with Eclipse Palladio plug-in available.
+A workspace is created with Eclipse Che Palladio plug-in available.
 
 #### Example
 
@@ -106,4 +106,4 @@ In the root directory we have to spefify modules(or subprojects) for both Maven 
 For more details, please see the `README` files of the subproject:
 
 - **[Palladio DSL support extension for VS Code](./vscode-palladio/README.md)**
-- **[Palladio Language Server](./palladio-devfiles/README.md)**
+- **[Eclipse Che devfile generator](./palladio-devfiles/README.md)**
